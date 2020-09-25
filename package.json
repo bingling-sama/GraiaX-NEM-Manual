@@ -1,0 +1,17 @@
+{
+  "name": "nem-manual",
+  "version": "1.0.0",
+  "description": "A manual for NEM",
+  "main": "index.js",
+  "repository": "https://github.com/bingling-sama/NEM-Manual.git",
+  "author": "bingling-sama <65523047+bingling-sama@users.noreply.github.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build dev"
+  },
+  "devDependencies": {
+    "vuepress": "^1.5.4"
+  }
+}
